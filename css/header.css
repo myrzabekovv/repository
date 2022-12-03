@@ -42,3 +42,12 @@ header {
   background-color: #262626;
   color: white;
 }
+
+@media screen and (max-width: 500px) {
+  .icon {
+    display: none;
+  }
+  .buttons > .btn {
+    height: 30px;
+  }
+}
