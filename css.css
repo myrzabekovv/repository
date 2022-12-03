@@ -4,4 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  width: 856px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 29px;
 }
