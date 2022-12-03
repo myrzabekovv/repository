@@ -19,9 +19,26 @@ header {
   width: 62px;
   height: 27px;
   background-color: #999999;
+  border-radius: 2px;
 }
 
 .buttons {
   display: flex;
   gap: 10px;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  border-radius: 2px;
+  width: 70px;
+}
+
+.secondary {
+  border: 2px solid #999999;
+}
+
+.primary {
+  background-color: #262626;
+  color: white;
 }
