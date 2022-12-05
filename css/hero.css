@@ -1,0 +1,52 @@
+.hero {
+  width: 100%;
+  background-color: #ccc;
+}
+
+.hero-inner {
+  height: 364px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .left-side {
+    flex-direction: column;
+    text-align: center;
+  }
+  .info {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.resto-card {
+  background-color: #fff;
+  padding: 38px;
+  border-radius: 2px;
+  width: 389px;
+  height: 204px;
+  border: 1px solid;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+}
+
+.info {
+  text-align: end;
+}
+
+@media screen and (max-width: 500px) {
+  .hero-inner {
+    height: 255px;
+    position: relative;
+  }
+  .resto-card {
+    position: absolute;
+    bottom: 20px;
+    width: calc(100% - 16px);
+  }
+}
